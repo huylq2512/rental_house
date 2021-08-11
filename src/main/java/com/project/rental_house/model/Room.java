@@ -29,4 +29,5 @@ public class Room {
     @JoinColumn(name = "idHouse")
     @JsonIgnore
     private House house;
+
 }
