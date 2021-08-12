@@ -27,7 +27,7 @@ public class Room {
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "idHouse")
-    @JsonIgnore
+//    @JsonIgnore
     private House house;
 
 }

@@ -25,6 +25,6 @@ public class House {
     private String address;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "house")
-//    @JsonIgnore
+    @JsonIgnore
     private Set<Room> listRoom = new HashSet<>();
 }
